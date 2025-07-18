@@ -2,322 +2,60 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Mes Applications Favorites</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mes applications préférées</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>📱 Mes Applications Mobiles Favorites</h1>
-    <p>Découvrez trois applications mobiles incontournables !</p>
-  </header>
-
-  <main class="apps">
-    <section>
-      <img src="images/app1-logo.png" alt="App Instagram" class="logo">
-      <h2>Instagram</h2>
-      <p>partager les bons moments de vie en postant des photoset de courtes vedio.</p>
-      <a href="app1.html">→ En savoir plus</a>
-    </section>
-    
-    <section>
-      <img src="images/app2-logo.png" alt="App linkedin" class="logo">
-      <h2>linkedin</h2>
-      <p></p>
-      <a href="linkedin.html">→ En savoir plus</a>
-    </section>
-    
-    <section>
-      <img src="images/app3-logo.png" alt="App doctolib" class="logo">
-      <h2>doctolib</h2>
-      <p>.</p>
-      <a href="app3.html">→ En savoir plus</a>
-    </section>
-  </main>
-</body>
-</html>
-
-🧘 app1.html –Instagram
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Instagram</title>
-  <link rel="stylesheet" href="css/app1.css">
-</head>
-<body>
-  <header>
-    <img src="images/app1-logo.png" alt="Logo Instagram">
-    <h1>Instagram</h1>
-    <p>Partager des moments sans filtres avec vos amis et proches </p>
+    <h1>Mes 3 applications mobiles favorites 📱</h1>
+    <nav>
+      <ul>
+        <li><a href="pages/instagram.html">Instagram</a></li>
+        <li><a href="pages/linkedin.html">LinkedIn</a></li>
+        <li><a href="pages/facebook.html">Facebook</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <p>Zenify vous aide à trouver la paix intérieure grâce à des méditations guidées et des sons relaxants.</p>
-    <img src="images/screenshots/app1-1.png" alt="Capture d’écran Zenify">
-
-    <p><a href="#">📲 Télécharger sur l’App Store</a></p>
-    <p><a href="#">📲 Télécharger sur Google Play</a></p>
-    
-    <footer>
-      <a href="#">Instagram</a> |
-      <a href="#">Twitter</a> |
-      <a href="index.html">Retour</a>
-    </footer>
-  </main>
-</body>
-</html>
-
-🍔 app2.html – SnapFood
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>SnapFood</title>
-  <link rel="stylesheet" href="css/app2.css">
-</head>
-<body>
-  <header>
-    <img src="images/app2-logo.png" alt="Logo SnapFood">
-    <h1>SnapFood</h1>
-    <p>Votre frigo, vos recettes 🍽️</p>
-  </header>
-
-  <main>
-    <p>SnapFood transforme vos ingrédients en recettes personnalisées. Scannez, cuisinez, régalez-vous !</p>
-    <img src="images/screenshots/app2-1.png" alt="Capture SnapFood">
-
-    <p><a href="#">📲 Télécharger sur l’App Store</a></p>
-    <p><a href="#">📲 Télécharger sur Google Play</a></p>
-
-    <footer>
-      <a href="#">Facebook</a> |
-      <a href="#">TikTok</a> |
-      <a href="index.html">Retour</a>
-    </footer>
-  </main>
-</body>
-</html>
-
-🏃 app3.html – RunBeat
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>RunBeat</title>
-  <link rel="stylesheet" href="css/app3.css">
-</head>
-<body>
-  <header>
-    <img src="images/app3-logo.png" alt="Logo RunBeat">
-    <h1>RunBeat</h1>
-    <p>Courez avec le rythme 🎵</p>
-  </header>
-
-  <main>
-    <p>RunBeat synchronise votre musique avec votre cadence de course. Motivation garantie !</p>
-    <img src="images/screenshots/app3-1.png" alt="Capture RunBeat">
-
-    <p><a href="#">📲 Télécharger sur l’App Store</a></p>
-    <p><a href="#">📲 Télécharger sur Google Play</a></p>
-
-    <footer>
-      <a href="#">Spotify</a> |
-      <a href="#">Strava</a> |
-      <a href="index.html">Retour</a>
-    </footer>
-  </main>
-</body>
-</html>
-
-🎨 Exemple CSS général (css/style.css)
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f3f3f3;
-  margin: 0;
-  padding: 0;
-  color: #333;
-}
-header {
-  background-color: #444;
-  color: white;
-  padding: 2rem;
-  text-align: center;
-}
-.apps {
-  display: flex;
-  justify-content: space-around;
-  margin: 2rem;
-}
-section {
-  background-color: white;
-  border-radius: 10px;
-  padding: 1rem;
-  width: 30%;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-.logo {
-  width: 80px;
-  height: 80px;
-}
-
-🎨 Style personnalisé pour Zenify (css/app1.css)
-
-body {
-  font-family: 'Georgia', serif;
-  background-color: #e6f2e6;
-  color: #2f4f4f;
-}
-header {
-  text-align: center;
-  padding: 2rem;
-  background-color: #a8d5ba;
-}
-main {
-  text-align: center;
-}
-
-(Et styles similaires pour app2.css et app3.css, adaptés aux thèmes de chaque app.)
-
-Souhaitez-vous que je vous génère un fichier ZIP téléchargeable avec tous les fichiers mentionnés ci-dessus ?
-Vous avez dit :
-aider moi a faire la page index .html
-ChatGPT a dit :
-
-Parfait ! Voici une version complète et claire de la page index.html que tu peux copier-coller directement dans ton éditeur de code. Elle présente 3 applications, avec une structure propre et facile à modifier.
-✅ index.html – Page d'accueil du site
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mes Applications Mobiles Favorites</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header>
-    <h1>📱 Mes Applications Mobiles Favorites</h1>
-    <p>Découvrez trois applis incontournables pour améliorer votre quotidien !</p>
-  </header>
-
-  <main class="apps-container">
-
-    <!-- Application 1 : Zenify -->
-    <section class="app-card">
-      <img src="images/app1-logo.png" alt="Logo Zenify" class="app-logo">
-      <h2>Zenify</h2>
-      <p class="slogan">Méditez, respirez, vivez.</p>
-      <a href="app1.html" class="button">Découvrir Zenify</a>
+    <section class="intro">
+      <h2>Bienvenue !</h2>
+      <p>Voici un site dédié à trois applications que j'utilise quotidiennement. Que ce soit pour réseauter, partager ou rester informé, elles m'accompagnent partout.</p>
     </section>
 
-    <!-- Application 2 : SnapFood -->
-    <section class="app-card">
-      <img src="images/app2-logo.png" alt="Logo SnapFood" class="app-logo">
-      <h2>SnapFood</h2>
-      <p class="slogan">Scannez. Cuisinez. Dégustez.</p>
-      <a href="app2.html" class="button">Découvrir SnapFood</a>
-    </section>
+    <section class="apps">
+      <div class="app-card">
+        <img src="img/instagram-logo.png" alt="Logo Instagram">
+        <h3>Instagram</h3>
+        <p>Partagez vos moments, explorez de nouveaux contenus et connectez-vous avec le monde.</p>
+        <a href="pages/instagram.html">Découvrir</a>
+      </div>
 
-    <!-- Application 3 : RunBeat -->
-    <section class="app-card">
-      <img src="images/app3-logo.png" alt="Logo RunBeat" class="app-logo">
-      <h2>RunBeat</h2>
-      <p class="slogan">Courez au rythme de votre cœur.</p>
-      <a href="app3.html" class="button">Découvrir RunBeat</a>
-    </section>
+      <div class="app-card">
+        <img src="img/linkedin-logo.png" alt="Logo LinkedIn">
+        <h3>LinkedIn</h3>
+        <p>Développez votre réseau professionnel et explorez des opportunités de carrière.</p>
+        <a href="pages/linkedin.html">Découvrir</a>
+      </div>
 
+      <div class="app-card">
+        <img src="img/facebook-logo.png" alt="Logo Facebook">
+        <h3>Facebook</h3>
+        <p>Restez en contact avec vos proches et suivez l'actualité en temps réel.</p>
+        <a href="pages/facebook.html">Découvrir</a>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>© 2025 - Mes Apps Favorites | Suivez-nous sur 
-      <a href="#">Instagram</a>, <a href="#">Twitter</a>, <a href="#">Facebook</a>
-    </p>
+    <p>Suivez-moi sur les réseaux :</p>
+    <a href="https://www.instagram.com"><img src="img/instagram-logo.png" alt="Instagram" width="30"></a>
+    <a href="https://www.linkedin.com"><img src="img/linkedin-logo.png" alt="LinkedIn" width="30"></a>
+    <a href="https://www.facebook.com"><img src="img/facebook-logo.png" alt="Facebook" width="30"></a>
   </footer>
 </body>
 </html>
 
-💅 Et voici un exemple de CSS (css/style.css) pour accompagner :
-
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f0f0f5;
-  color: #333;
-}
-
-header {
-  background-color: #2c3e50;
-  color: white;
-  padding: 2rem;
-  text-align: center;
-}
-
-h1 {
-  margin-bottom: 0.5rem;
-}
-
-.apps-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  padding: 2rem;
-}
-
-.app-card {
-  background: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  padding: 1.5rem;
-  text-align: center;
-  width: 300px;
-}
-
-.app-logo {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
-}
-
-.slogan {
-  font-style: italic;
-  color: #555;
-  margin: 0.5rem 0 1rem;
-}
-
-.button {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #3498db;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background 0.3s;
-}
-
-.button:hover {
-  background-color: #2980b9;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #ecf0f1;
-  font-size: 0.9rem;
-}
-
-📦 À prévoir :
-
-    Dossier images/ avec les logos (app1-logo.png, app2-logo.png, app3-logo.png)
-
-    Dossier css/ contenant style.css
-
-    Fichiers app1.html, app2.html, app3.html à créer ensuite
-
-Souhaites-tu que je t’aide maintenant à créer l’une des pages comme app1.html (Zenify) ?
-Aimez-vous cette personnalité ?
 

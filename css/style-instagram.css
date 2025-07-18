@@ -1,0 +1,102 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #fdf0f3, #ffe0ec);
+  color: #333;
+}
+
+/* Header coloré avec effet Instagram */
+header {
+  background: linear-gradient(90deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.slogan {
+  font-style: italic;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+nav a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: white;
+  text-decoration: underline;
+}
+
+/* Présentation */
+.presentation {
+  text-align: center;
+  padding: 2rem;
+}
+
+.presentation .logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.presentation p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* Galerie */
+.screenshots {
+  padding: 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.gallery img {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Téléchargement */
+.download {
+  text-align: center;
+  padding: 2rem;
+}
+
+.download a {
+  display: inline-block;
+  background-color: #cc2366;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.download a:hover {
+  background-color: #e6683c;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
